@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>app</title>
+    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_767894_2pscgscjndq.css">
+    <link rel="stylesheet" href="css/dingdanye.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<div class="da"></div>
+<!--头部开始-->
+<header>
+    <main class="hear">
+        <div class="hear-img"></div>
+    </main>
+    <main class="top-em">
+        <li><em class="iconfont">&#xe606;</em>提交订单</li>
+    </main>
+    <main class="hear-ling">
+        <li><em class="iconfont">&#xe845;</em>现在预订，10:30起送</li>
+    </main>
+    <main class="top-bottom">
+        <div class="top-top">
+            <li>凯通大厦</li>
+            <li>任星宇（先生）186********</li>
+            <em class="iconfont">&#xe61d;</em>
+        </div>
+        <div class="hear-bottom">
+            <li>发送时间：10:50左右</li>
+            <em class="iconfont">&#xe61d;</em>
+        </div>
+    </main>
+</header>
+<!--头部结束-->
+<!--商品开始-->
+<section class="shang">
+    <main class="shang-top">
+        <img src="image/liangpi.png" alt="">
+        <li>魏家凉皮</li>
+    </main>
+    <main class="shangpin">
+        <img src="image/ding.png" alt="">
+        <div class="shang-right">
+            <ul>
+                <li>秘制凉皮</li>
+                <li>￥27</li>
+            </ul>
+            <ul>x3</ul>
+        </div>
+    </main>
+    <div class="shang-jia shang-1">
+        <ul>
+            <li>包装费</li>
+            <li>￥3</li>
+        </ul>
+        <ul>
+            <li>配送费</li>
+            <li>￥3.5</li>
+        </ul>
+    </div>
+    <div class="shang-q shang-1">
+        <ul>
+            <li>红包/抵用券</li>
+            <li>暂无使用<em class="iconfont">&#xe61d;</em></li>
+        </ul>
+        <ul>
+            <li>商家代金券</li>
+            <li>暂无使用<em class="iconfont">&#xe61d;</em></li>
+        </ul>
+    </div>
+</section>
+<!--商品结束-->
+
+<!--支付开始-->
+<section class="money">
+    <main class="money-top money-1">
+        <ul style="border-bottom: .01rem solid #E1E1E1">
+            <li>支付方式</li>
+            <li>在线支付</li>
+        </ul>
+        <ul>
+            <li>备注</li>
+            <li>口味/偏好等要求<em class="iconfont">&#xe61d;</em></li>
+        </ul>
+    </main>
+</section>
+<!--支付结束-->
+
+<!--底部点击开始-->
+<section class="click">
+    <main class="click-top">
+        <h1>选择支付方式</h1>
+        <li>×</li>
+    </main>
+    <main class="click-bottom">
+        <div class="click-bottombox">
+            <em class="iconfont" style="color: #F25F5C">&#xe62e;</em>
+            <ol>账户余额</ol>
+        </div>
+        <div class="click-bottombox">
+            <em class="iconfont" style="color: #1AA1E6">&#xe642;</em>
+            <ol>支付宝支付</ol>
+        </div>
+        <div class="click-bottombox">
+            <em class="iconfont" style="color: #0EEF53">&#xe82b;</em>
+            <ol>微信支付</ol>
+        </div>
+        <div class="click-bottombox">
+            <em class="iconfont" style="color: #FF9F38">&#xe62a;</em>
+            <ol>银行卡支付</ol>
+        </div>
+        <div class="click-bottombox">
+            <em class="iconfont" style="color: #EF0ED7">&#xe61f;</em>
+            <ol style="border:0">第三方支付</ol>
+        </div>
+
+    </main>
+</section>
+
+<!--底部点击结束-->
+
+<!--底部开始-->
+<footer>
+    <main class="end-left">
+        <li>合计</li>
+        <li>￥33.5</li>
+    </main>
+    <a href="zhifu.html"><main class="end-right">去结算</main></a>
+</footer>
+<!--底部结束-->
+</body>
+</html>
+<script>
+    let end=document.querySelector(".money ul li")
+    let da1=document.querySelector(".da")
+    let click=document.querySelector(".click")
+    let hui=document.querySelector(".click-top li")
+
+    end.onclick=function () {
+        da1.style.display="block";
+        click.style.height="7.34rem";
+    }
+    hui.onclick=function () {
+        da1.style.display="none";
+        click.style.height="0";
+    }
+
+</script>

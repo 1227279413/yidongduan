@@ -1,0 +1,367 @@
+body{
+    background: #F6F1F1;
+}
+/*头部开始*/
+header{
+    width: 100%;
+    height: 3.04rem;
+    background: #17E2D6;
+}
+.hear{
+    width: 100%;
+    height: .4rem;
+    padding-top:.08rem;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.1);
+}
+.hear-img{
+    width: 7.02rem;
+    height:.23rem;
+    background: url("../image/Status Bar.png") no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+
+.hear-box{
+    width: 7.02rem;
+    margin:0 auto;
+    height: 2.64rem;
+}
+.hear-top{
+    width: 100%;
+    height: .9rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+.hear-bottom{
+    width: 7.02rem;
+    height: 1.08rem;
+    position: relative;
+}
+.hear-bottom ol{
+    line-height: 1.08rem;
+    font-size: .37rem;
+    color: #fff;
+    padding-left: .2rem;
+    box-sizing:border-box;
+}
+.hear-qiu{
+    width: .23rem;
+    height: .23rem;
+    border-radius: 50% ;
+    background: #fff;
+    position: absolute;
+    bottom:-.11rem;
+    left:.3rem;
+}
+.hear-kuai{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 1.31rem;
+    position: absolute;
+    bottom:-1.31rem;
+    left:0;
+    background: #fff;
+}
+.hear-kuai li{
+    font-size: .34rem;
+}
+.hear-kuai li:last-child{
+    color:#FF0006;
+}
+.hear-kuai em{
+    font-size: .46rem;
+    color:#ccc;
+}
+/*头部结束*/
+
+/*银行卡开始*/
+.yin{
+    width: 6.49rem;
+    height: 4.25rem;
+    /*background: #FF829A;*/
+    /*border-radius: .19rem;*/
+    margin: .99rem auto 0;
+    background: url("../image/yinhang.png") no-repeat;
+    background-size: 100% 100%;
+}
+/*银行卡结束*/
+
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 6.8rem;
+    position: fixed;
+    bottom:0;
+    background-color: rgba(255,255,255,.8);
+    z-index: 40;
+}
+footer ul{
+    width: 100%;
+    height: 1.43rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .23rem;
+}
+footer ul ol li{
+    width: .11rem;
+    height: .11rem;
+    border-radius: 50%;
+    background: #BEC9B4;
+    margin:0 .05rem;
+}
+footer ul ol{
+    display: flex;
+    justify-content: space-around;
+    margin:.05rem .1rem 0;
+}
+#zhi em{
+    width: 1.23rem;
+    height: 1.23rem;
+    position: absolute;
+    display: block;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    /*margin-bottom:auto;
+    margin-left: auto;*/
+    margin:auto;
+    font-size: 1.22rem;
+    color:#F59181;
+    z-index: 20;
+}
+#zhi h1{
+    width: 100%;
+    padding-left: .2rem;
+    position: absolute;
+    bottom:1.73rem;
+    text-align: center;
+    font-size: .23rem;
+    font-weight: 400;
+    z-index: 20;
+}
+.tbox3{
+    background:rgba(23,226,214,.72) ;
+    position: absolute;
+    width: 12.63rem;
+    height: 6.43rem;
+    left:-2.66rem;
+    bottom:-1.48rem;
+    border-radius: 50%;
+}
+.tbox2{
+    background:rgba(235,237,60,.6) ;
+    position: absolute;
+    width: 14.32rem;
+    height: 10.76rem;
+    left:-5.19rem;
+    bottom:-5.57rem;
+    border-radius: 50%;
+}
+.tbox1{
+     background:rgba(254,140,162,.72) ;
+     position: absolute;
+     width: 12.45rem;
+     height: 5.38rem;
+     left:-1.71rem;
+     bottom:-.19rem;
+     border-radius: 50%;
+ }
+
+
+
+
+
+
+.tu{
+    width: 6.15rem;
+    height: 4.42rem;
+    left:0;
+    right:0;
+    margin:0 auto;
+    position: absolute;
+    bottom:.62rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.tu-dian{
+    width: .32rem;
+    height: .32rem;
+    border-radius: 50%;
+    background: #B3ECE9;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 .7rem;
+}
+.tu-dian li{
+    width: .14rem;
+    height: .14rem;
+    border-radius: 50%;
+    background: #23E2D6;
+    box-sizing: border-box;
+}
+#tu-bian{
+    border:.03rem solid #17E2D6;
+    background: #fff;
+}
+.ma{
+    width: 4.34rem;
+    height: .43rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ma ul{
+    width: .54rem;
+    height: 100%;
+    position: relative;
+}
+.ma ul li{
+    width: 100%;
+    height: .06rem;
+    border-radius: .03rem;
+    position: absolute;
+    bottom:0;
+    background: #CECACA;
+}
+#ma{
+    background: #828080;
+}
+.mi{
+    width: 7.5rem;
+    height: 4.28rem;
+    position: absolute;
+    bottom:0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background: #DCDFE5;
+}
+.mi1{
+    width: 2.36rem;
+    height: .94rem;
+    border-radius: .08rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.mi1 li{
+    width: 100%;
+}
+.mi1 li:first-child{
+    font-size: .45rem;
+    text-align: center;
+    font-weight: 800;
+    /*margin-top:.4rem;*/
+}
+.mi1 li:last-child{
+    font-size: .15rem;
+    text-align: center;
+    font-weight: 800;
+    /*margin-top:.4rem;*/
+}
+.mi2{
+    background: rgba(0,0,0,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mi1 em{
+    font-size: .38rem;
+}
+.wan{
+    width: 100%;
+    height: 2.58rem;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.wan li{
+    width: 100%;
+}
+.wan li:first-child{
+    font-size: .37rem;
+    color:#FA1B1B;
+    text-align: center;
+}
+.wan li:last-child{
+    font-size: .47rem;
+    color:#fff;
+    background: #2ECC71;
+    text-align: center;
+    width: 1.17rem;
+    height: 1.17rem;
+    border-radius: 50%;
+    line-height: 1.17rem;
+}
+.ji{
+    width: 7.02rem;
+    margin:0 auto;
+    height: .72rem;
+    display: flex;
+    justify-content: space-around;
+}
+.ji li{
+    width: 2.09rem;
+    height: .72rem;
+    text-align: center;
+    line-height: .72rem;
+    border-radius: .36rem;
+    font-size: .25rem;
+    color: #fff;
+}
+/*.ji li:first-child{
+     background: #FD8983;
+ }
+.ji li:last-child{
+    background: #EE62C8;
+}*/
+/*底部结束*/
+
+.xuanze{
+    width: 7.02rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin:.5rem auto 0;
+}
+.xuanze li{
+    font-size: .22rem;
+    width: 3rem;
+    height: .72rem;
+    border-radius: .36rem;
+    text-align: center;
+    background: #ff6700;
+    line-height: .72rem;
+    color:#fff;
+}
+.da{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0);
+    z-index: 30;
+    display: none;
+}
+.xuanze1{
+    display: none;
+}
+

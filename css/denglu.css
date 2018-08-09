@@ -1,0 +1,331 @@
+header{
+    width: 100%;
+    height: 2.73rem;
+    background-color: #17e2d6;
+}
+.hear{
+    width: 100%;
+    height: .4rem;
+    padding-top:.08rem;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.1);
+}
+.hear-img{
+    width: 7.02rem;
+    height:.23rem;
+    background: url("../image/Status Bar.png") no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+.hear-end{
+    width: 100%;
+    height: 2.33rem;
+    position: relative;
+
+}
+.hear-end img{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    bottom:-1rem;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/*欢迎开始*/
+.huan{
+    width: 100%;
+    height: 3.59em;
+    position: relative;
+}
+.huan h1{
+    position: absolute;
+    top:1.53rem;
+    left:0;
+    right: 0;
+    text-align: center;
+    line-height: .62rem;
+    font-size: .16rem;
+    margin:0 auto;
+}
+.huan ul{
+    width: 2.56rem;
+    font-size: .21rem;
+    position: absolute;
+    top:2.15rem;
+    left:0;
+    right: 0;
+    margin:0 auto;
+    display: flex;
+    line-height: .32rem;
+    justify-content: space-between;
+    align-items: center;
+    color:#1ca4eb;
+    font-weight: 400;
+}
+.huan li{
+    width: .1rem;
+    height: .1rem;
+    border-radius: 50%;
+    background-color: #bee1f8;
+}
+.huan li:nth-child(2){
+    background-color: #99d1f5;
+}
+.huan li:nth-child(3){
+    background-color: #63b8ef;
+}
+.huan li:nth-child(4){
+    background-color: #63b8ef;
+}
+.huan li:nth-child(5){
+    background-color: #99d1f5;
+}
+/*欢迎结束*/
+/*登录开始*/
+.deng{
+    width: 100%;
+    height: 4.56rem;
+    position: relative;
+}
+.deng ol{
+    width: 5.14rem;
+    height: .3rem;
+    position: absolute;
+    top:-.18rem;
+    left:0;
+    right:0;
+    margin:0 auto;
+    background-color: #eeae83;
+    border-radius: .05rem;
+    box-shadow: 0 .03rem .5rem .09rem #f5ceb5;
+}
+.lu{
+    width: 5.84rem;
+    height: 100%;
+    margin:0 auto;
+    position: relative;
+    background-color: #f9fafb;
+    border-radius: .08rem;
+    padding:0 .35rem;
+    box-sizing: border-box;
+}
+.dianbox{
+    width: 100%;
+    height: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dian{
+    width: .12rem;
+    height: .12rem;
+    border-radius: 50%;
+    margin:0 .15rem;
+    background-color: #a2a3a3;
+}
+.dian-1{
+    background-color: #fa9797;
+    box-shadow: 0 0 .05rem .05rem #f9ddde;
+}
+.lu ul{
+    width: 100%;
+    height: 3.3rem;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.lu ul li{
+    width: 100%;
+    height: .88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.lu ul li input{
+    width: 4.7rem;
+    height: 100%;
+    border:0;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border-bottom: .01rem solid #CFD0D1;
+    box-sizing: border-box;
+    padding-left: .4rem;
+    color:#BFBFC0;
+    font-size: .17rem;
+}
+#denglu .lu ul li h1{
+    width: 4.7rem;
+    height: 100%;
+    border:0;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border-bottom: .01rem solid #CFD0D1;
+    box-sizing: border-box;
+    padding-left: .4rem;
+    color:#757575;
+    font-size: .17rem;
+    font-weight: 400;
+    line-height: .88rem;
+}
+
+.lu ul li em{
+    position: absolute;
+    font-size: .5rem;
+    top:0;
+    bottom:0;
+    line-height: .88rem;
+    margin-top:auto;
+    right:.1rem;
+    color: #3eb5fb;
+}
+.lu ul li .cuowu{
+    width: 2.7rem;
+    height: .42rem;
+    position: absolute;
+    font-size: .14rem;
+    top:-.2rem;
+    text-align: center;
+    border-radius: .21rem .21rem .21rem 0;
+    line-height: .42rem;
+    right:.5rem;
+    color: #FF4242;
+    background: #fff;
+}
+.lu .cuowu i{
+    color:#FF4242;
+    font-size: .11rem;
+}
+.em{
+    font-size: .4rem;
+    color:#ff5a3f;
+}
+.kuai{
+    width: .37rem;
+    height: .1rem;
+    background-color: #17E2D6;
+    box-shadow: 0 0 .05rem .05rem #B0F2EF;
+}
+
+.deng-end{
+    position: absolute;
+    width: 1.88rem;
+    height: .4rem;
+    bottom:-.2rem;
+    box-sizing: border-box;
+    border: .03rem solid #fff;
+    text-align: center;
+    left:0;
+    right:0;
+    margin:0 auto;
+    background-color: #d2d7d7;
+    border-radius: .2rem;
+    color: #fff;
+}
+
+/*登录结束*/
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 1.28rem;
+    display: flex;
+    align-content: flex-end;
+}
+.end{
+    width: 3.23rem;
+    height: .57rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:.71rem auto 0;
+}
+.end em{
+    font-size: .57rem;
+    color:#41C9EB;
+}
+.end em:nth-child(2){
+    color:#75DB4E;
+}
+.end em:nth-child(3){
+    color:#E63C53;
+}
+/*底部结束*/
+
+/*em样式*/
+#kuai-dui{
+    color: #B6EC94;
+}
+#kuai-1{
+    font-size: .4rem;
+    color:#ff5a3f;
+    right:.15rem;
+}
+#kuai-yan{
+    color:#3DAEDB;
+}
+#kuai-cuo{
+    color:#F1330D;
+}
+
+
+
+
+
+
+
+/*注册开始 */
+
+
+#wancheng{
+    width: 1.62rem;
+    height: .42rem;
+    border-radius: .21rem;
+    background: #17E2D6;
+    position: absolute;
+    /*top:0;*/
+    /*bottom:0;*/
+    margin-top:auto;
+    line-height: .4rem;
+    text-align: center;
+    right:-.1rem;
+    color:#fff;
+}
+
+
+
+
+#zhu-end{
+    width: 7.02rem;
+    margin:.6rem auto 0;
+}
+#zhu-end ul{
+    width: 100%;
+    font-size: .17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhu-duan{
+    width: .9rem;
+    height: .02rem;
+    background: #C7C7C7;
+}
+#zhu-end ul ol{
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border:.05rem solid #FEE3E3;
+    background: #F8B1B1;
+    margin:.1rem;
+}
+#zhu-end ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*注册结束*/
+
