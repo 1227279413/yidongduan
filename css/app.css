@@ -58,6 +58,9 @@ header{
     left:1.2rem;
     line-height: .5rem;
     color:#6e6e6e;
+    box-sizing: border-box;
+    padding-left:.1rem;
+    outline: none;
 }
 .hearh1{
     text-align: center;
